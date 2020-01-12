@@ -36,13 +36,22 @@ def parseTasklist(file):
         if result:
             return result
     return         
+    
+def addDetected(av,process,url):
+    global scanResult
+    if av not in scanResult.keys():
+        scanResult[av] = {}
+        scanResult[av]["processes"] = []
+        scanResult[av]["url"] = ""
+  
+    scanResult[av]["processes"].append(process)
+    scanResult[av]["url"] = url
         
 def whatAV(task):
     for av in apps.keys():
         for process in apps[av]["processes"]:
             if process.lower() == task.lower():
-                return (av,process,apps[av]["url"])
-    return
+                addDetected(av,task,apps[av]["url"])
     
 def get_args():
     global args
@@ -53,8 +62,8 @@ def get_args():
     args = parser.parse_args()       
         
 def main():
-    global apps,pattern 
-    detected = False
+    global apps,pattern,scanResult
+    scanResult = {}
     apps = loadApps("av.json")
 
     if args.file:
@@ -64,18 +73,15 @@ def main():
         if tasklist:
             tasklist = list(set(tasklist))
             for task in tasklist:
-                res = whatAV(task)
-                if res:
-                    detected = True
-                    print("Antivirus: %s\tProcess: %s\tURL: %s" % (res[0],res[1],res[2]))
+                whatAV(task)
                     
     if args.process: 
-        res = whatAV(args.process)
-        if res:
-            detected = True
-            print("Antivirus: %s\tProcess: %s\tURL: %s" % (res[0],res[1],res[2]))        
-                    
-    if not detected:
+        whatAV(args.process)
+    
+    if scanResult:
+        for av in scanResult.keys():
+            print("Antivirus: %s\tProcess: %s\tURL: %s" % (av," , ".join(scanResult[av]["processes"]),scanResult[av]["url"]))   
+    else:
         print("No Antivirus found")
         
 if __name__ == "__main__":
