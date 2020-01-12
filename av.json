@@ -30,10 +30,10 @@
 		"processes":["Bdagent.exe","BitDefenderCom.exe","vsserv.exe","bdredline.exe","bdservicehost.exe"],
 		"url":"http://www.bitdefender.com/"},
 	"Bkav":{
-		"processes":["BKavService.exe"],
+		"processes":["BKavService.exe","Bka.exe","BkavUtil.exe","BLuPro.exe"],
 		"url":"https://www.bkav.com/"},
 	"CAT-QuickHeal":{
-		"processes":["QUHLPSVC.exe"],
+		"processes":["QUHLPSVC.exe","onlinent.exe","sapissvc.exe","scanwscs.exe"],
 		"url":"https://www.quickheal.com/"},
 	"CMC":{
 		"processes":["CMCTrayIcon.exe"],
@@ -42,7 +42,7 @@
 		"processes":["freshclam.exe"],
 		"url":"https://www.clamav.net"},
 	"Comodo":{
-		"processes":["cpf.exe","cavwp.exe"],
+		"processes":["cpf.exe","cavwp.exe","ccavsrv.exe","cmdvirth.exe"],
 		"url":"https://www.comodo.com"},
 	"CrowdStrike Falcon":{
 		"processes":["csfalconservice.exe","CSFalconContainer.exe"],
@@ -99,7 +99,7 @@
 		"processes":["kxetray.exe","ksafe.exe","KSWebShield.exe","kpfwtray.exe","KWatch.exe","KSafeSvc.exe","KSafeTray.exe"],
 		"url":"http://www.duba.net/"},
 	"Max Secure Software":{
-		"processes":["SDSystemTray.exe"],
+		"processes":["SDSystemTray.exe","MaxRCSystemTray.exe","RCSystemTray.exe"],
 		"url":"https://www.maxpcsecure.com/"},
 	"Malwarebytes":{
 		"processes":["MalwarebytesPortable.exe","Mbae.exe","MBAMIService.exe","mbamdor.exe"],
@@ -126,10 +126,10 @@
 		"processes":["360sd.exe","360tray.exe","ZhuDongFangYu.exe","360rp.exe","360safe.exe","360safebox.exe","QHActiveDefense.exe"],
 		"url":"https://sd.360.cn/"},
 	"Rising":{
-		"processes":["RavMonD.exe","rfwmain.exe"],
+		"processes":["RavMonD.exe","rfwmain.exe","RsMgrSvc.exe"],
 		"url":"http://antivirus.rising.com.cn/"},
 	"SUPERAntiSpyware":{
-		"processes":["superantispyware.exe","sascore.exe"],
+		"processes":["superantispyware.exe","sascore.exe","SAdBlock.exe","sabsvc.exe"],
 		"url":"http://www.superadblocker.com/"},
 	"SecureAge APEX":{
 		"processes":["UniversalAVService.exe","EverythingServer.exe","clamd.exe"],
@@ -153,14 +153,11 @@
 		"processes":["AMRT.exe","SWatcherSrv.exe","Prd.ManagementConsole.exe"],
 		"url":"https://www.totaldefense.com"},
 	"Trapmine":{
-		"processes":[],
+		"processes":["TrapmineEnterpriseService.exe","TrapmineEnterpriseConfig.exe","TrapmineDeployer.exe","TrapmineUpgradeService.exe"],
 		"url":"https://trapmine.com/"},
 	"TrendMicro":{
 		"processes":["TMBMSRV.exe","ntrtscan.exe","Pop3Trap.exe","WebTrap.exe"],
 		"url":"http://careers.trendmicro.com.cn/"},
-	"Trustlook":{
-		"processes":[],
-		"url":"https://www.trustlook.com/"},
 	"VIPRE":{
 		"processes":["SBAMSvc.exe","VipreEdgeProtection.exe","SBAMTray.exe"],
 		"url":"https://www.vipre.com"},
@@ -171,7 +168,7 @@
 		"processes":["npwebroot.exe","WRSA.exe","spysweeperui.exe"],
 		"url":"https://www.webroot.com/us/en"},
 	"Yandex":{
-		"processes":["Yandex.exe","YandexDisk.exe"],
+		"processes":["Yandex.exe","YandexDisk.exe","yandesk.exe"],
 		"url":"https://yandex.com/support/common/security/antiviruses-free.html"},
 	"Zillya":{
 		"processes":["zillya.exe","ZAVAux.exe","ZAVCore.exe"],
@@ -202,7 +199,7 @@
 		"url":"https://www.securitymongoose.com/"},
 	"Coranti2012":{
 		"processes":["CorantiControlCenter32.exe"],
-		"url":""},
+		"url":"https://www.coranti.com"},
 	"UnThreat":{
 		"processes":["UnThreat.exe","utsvc.exe"],
 		"url":"https://softplanet.com/UnThreat-AntiVirus"},
@@ -222,7 +219,7 @@
 		"processes":["nspupsvc.exe","Npkcmsvc.exe","npnj5Agent.exe"],
 		"url":"http://nos.nprotect.com/"},
 	"Spyware Terminator":{
-		"processes":["SpywareTerminatorShield.exe"],
+		"processes":["SpywareTerminatorShield.exe","SpywareTerminator.exe"],
 		"url":"http://www.spywareterminator.com/Default.aspx"},
 	"Norton":{
 		"processes":["ccSvcHst.exe","rtvscan.exe","ccapp.exe","NPFMntor.exe","ccRegVfy.exe","vptray.exe","iamapp.exe","nav.exe","navapw32.exe","navapsvc.exe","nisum.exe","nmain.exe","nprotect.exe"],
@@ -310,5 +307,8 @@
 		"url":"http://www.pctools.com"},
 	"VirusBuster Professional":{
 		"processes":["vbcmserv.exe"],
-		"url":"http://www.virusbuster.hu"}	
+		"url":"http://www.virusbuster.hu"},
+	"安天智甲":{
+		"processes":["kxetray.exe","kscan.exe","AMediumManager.exe","kismain.exe"],
+		"url":"https://antiy.cn/"}
 }
