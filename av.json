@@ -94,7 +94,7 @@
 		"url":"http://viruslab.k7computing.com/"},
 	"Kaspersky":{
 		"processes":["avp.exe","avpcc.exe","avpm.exe","kavpf.exe"],
-		"url":"https://www.kaspersky.com.com"},
+		"url":"https://www.kaspersky.com"},
 	"Kingsoft":{
 		"processes":["kxetray.exe","ksafe.exe","KSWebShield.exe","kpfwtray.exe","KWatch.exe","KSafeSvc.exe","KSafeTray.exe"],
 		"url":"http://www.duba.net/"},
