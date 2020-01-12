@@ -90,7 +90,7 @@
 		"processes":["KVFW.exe","KVsrvXP.exe","KVMonXP.exe","KVwsc.exe"],
 		"url":"https://www.jiangmin.com/"},
 	"K7AntiVirus":{
-		"processes":["K7TSecurity.exe","K7TSMain.Exe","K7TSUpdT"],
+		"processes":["K7TSecurity.exe","K7TSMain.Exe","K7TSUpdT.exe"],
 		"url":"http://viruslab.k7computing.com/"},
 	"Kaspersky":{
 		"processes":["avp.exe","avpcc.exe","avpm.exe","kavpf.exe"],
