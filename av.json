@@ -27,7 +27,7 @@
 		"processes":["BaiduSdSvc.exe","BaiduSdTray.exe","BaiduSd.exe","bddownloader.exe","baiduansvx.exe"],
 		"url":"https://anquan.baidu.com/"},
 	"BitDefender":{
-		"processes":["vsserv.exe"],
+		"processes":["Bdagent.exe","BitDefenderCom.exe","vsserv.exe","bdredline.exe","bdservicehost.exe"],
 		"url":"http://www.bitdefender.com/"},
 	"Bkav":{
 		"processes":["BKavService.exe"],
