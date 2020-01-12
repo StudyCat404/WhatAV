@@ -23,9 +23,9 @@
 	"Avira AntiVirus":{
 		"processes":["avcenter.exe","avguard.exe","avgnt.exe","sched.exe"],
 		"url":"https://www.avira.com/"},
-	"Baidu":{
+	"百度杀毒":{
 		"processes":["BaiduSdSvc.exe","BaiduSdTray.exe","BaiduSd.exe","bddownloader.exe","baiduansvx.exe"],
-		"url":""},
+		"url":"https://anquan.baidu.com/"},
 	"BitDefender":{
 		"processes":["vsserv.exe"],
 		"url":"http://www.bitdefender.com/"},
