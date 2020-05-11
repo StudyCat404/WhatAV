@@ -308,6 +308,9 @@
 	"VirusBuster Professional":{
 		"processes":["vbcmserv.exe"],
 		"url":"http://www.virusbuster.hu"},
+	"ClamWin":{
+		"processes":["ClamTray.exe","clamscan.exe"],
+		"url":"http://www.clamwin.com/"},	
 	"安天智甲":{
 		"processes":["kxetray.exe","kscan.exe","AMediumManager.exe","kismain.exe"],
 		"url":"https://antiy.cn/"}
