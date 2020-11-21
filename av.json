@@ -324,5 +324,9 @@
 	"Malwarebytes":{
 		"processes":["MBAMService.exe","mbam.exe","mbamtray.exe"],
 		"url":"https://www.malwarebytes.com/"
+	},
+	"Agnitum outpost":{
+		"processes":["outpost.exe","acs.exe"],
+		"url":"https://agnitum-outpost-security-suite.en.softonic.com/"
 	}
 }
