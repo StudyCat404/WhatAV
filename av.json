@@ -274,7 +274,7 @@
 		"url":"https://www.hws.com/"},
 	"火绒安全":{
 		"processes":["hipstray.exe","wsctrl.exe","usysdiag.exe","HipsDaemon.exe","HipsLog.exe","HipsMain.exe","usysdiag.exe","wsctrl.exe"],
-		"url":""},
+		"url":"https://www.huorong.cn/"},
 	"网络病毒克星":{
 		"processes":["WEBSCANX.exe"],
 		"url":""},
@@ -283,7 +283,7 @@
 		"url":""},
 	"Enhanced Mitigation Experience Toolkit":{
 		"processes":["emet_agent.exe","emet_service.exe"],
-		"url":"https://support.microsoft.com/en-us/help/2458544/the-enhanced-mitigation-experience-toolkit"},
+		"url":"https://www.microsoft.com/"},
 	"H+BEDV Datentechnik GmbH":{
 		"processes":["avwin.exe","avwupsrv.exe"],
 		"url":"http://www.free-av.com/"},
