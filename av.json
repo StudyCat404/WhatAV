@@ -23,7 +23,7 @@
 	"Avira AntiVirus":{
 		"processes":["avcenter.exe","avguard.exe","avgnt.exe","sched.exe"],
 		"url":"https://www.avira.com/"},
-	"百度杀毒":{
+	"Baidu AntiVirus":{
 		"processes":["BaiduSdSvc.exe","BaiduSdTray.exe","BaiduSd.exe","bddownloader.exe","baiduansvx.exe"],
 		"url":"https://anquan.baidu.com/"},
 	"BitDefender":{
@@ -86,7 +86,7 @@
 	"Ikarus":{
 		"processes":["guardxservice.exe","guardxkickoff.exe"],
 		"url":"https://www.ikarussecurity.com/"},
-	"江民":{
+	"Jiangmin":{
 		"processes":["KVFW.exe","KVsrvXP.exe","KVMonXP.exe","KVwsc.exe"],
 		"url":"https://www.jiangmin.com/"},
 	"K7AntiVirus":{
@@ -263,7 +263,7 @@
 	"天网防火墙":{
 		"processes":["pfw.exe"],
 		"url":""},
-	"D盾":{
+	"D 盾":{
 		"processes":["D_Safe_Manage.exe","d_manage.exe"],
 		"url":"http://www.d99net.net/"},
 	"云锁":{
@@ -328,5 +328,17 @@
 	"Agnitum outpost":{
 		"processes":["outpost.exe","acs.exe"],
 		"url":"https://agnitum-outpost-security-suite.en.softonic.com/"
+	},
+	"Cynet":{
+		"processes":["CynetLauncher.exe","CynetDS.exe","CynetEPS.exe","CynetMS.exe","CynetAR.exe","CynetGW.exe","CynetSD64.exe"],
+		"url":"https://www.cynet.com/"
+	},
+	"Elastic":{
+		"processes":["winlogbeat.exe"],
+		"url":"https://www.elastic.co/"
+	},
+	"MaxSecure":{
+		"processes":["MaxAVPlusDM.exe","MaxRCSystemTray.exe","RCSystemTray.exe","SDSystemTray.exe","LiveUpdateSD.exe"],
+		"url":"https://maxsecureantivirus.com/"
 	}
 }
