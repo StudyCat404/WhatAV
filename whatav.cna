@@ -40,7 +40,7 @@ $db = %(
     Max Secure Software => %( processes => @("SDSystemTray.exe","MaxRCSystemTray.exe","RCSystemTray.exe",), url => "https://www.maxpcsecure.com/"),
     Malwarebytes => %( processes => @("MBAMService.exe","mbam.exe","mbamtray.exe",), url => "https://www.malwarebytes.com/"),
     McAfee => %( processes => @("Mcshield.exe","Tbmon.exe","Frameworkservice.exe","firesvc.exe","firetray.exe","hipsvc.exe","mfevtps.exe","mcafeefire.exe","shstat.exe","vstskmgr.exe","engineserver.exe","alogserv.exe","avconsol.exe","cmgrdian.exe","cpd.exe","mcmnhdlr.exe","mcvsshld.exe","mcvsrte.exe","mghtml.exe","mpfservice.exe","mpfagent.exe","mpftray.exe","vshwin32.exe","vsstat.exe","guarddog.exe",), url => "https://www.mcafee.com/en-us"),
-    Microsoft security essentials => %( processes => @("MsMpEng.exe","mssecess.exe","emet_service.exe","drwatson.exe","MpCmdRun.exe","NisSrv.exe","MsSense.exe","MSASCui.exe","MSASCuiL.exe","SecurityHealthService.exe",), url => "https://support.microsoft.com/en-us/help/17150/windows-7-what-is-microsoft-security-essentials"),
+    Microsoft defender => %( processes => @("MsMpEng.exe","mssecess.exe","emet_service.exe","drwatson.exe","MpCmdRun.exe","NisSrv.exe","MsSense.exe","MSASCui.exe","MSASCuiL.exe","SecurityHealthService.exe",), url => "https://support.microsoft.com/"),
     NANO-Antivirus => %( processes => @("nanoav.exe","nanoav64.exe","nanoreport.exe","nanoreportc.exe","nanoreportc64.exe","nanorst.exe","nanosvc.exe",), url => "https://nano-av.com/"),
     a-squared free => %( processes => @("a2guard.exe","a2free.exe","a2service.exe",), url => "https://baike.baidu.com/item/a-squared%20Free/481873?fr=aladdin"),
     Palo Alto Networks => %( processes => @("PanInstaller.exe",), url => "https://www.paloaltonetworks.com/"),
